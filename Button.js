@@ -17,3 +17,8 @@ function orange()
 {
 	document.getElementById("color").style.color="orange";
 }
+
+function crab()
+{
+  document.getElementById("animal").innerHTML="crab";
+}
