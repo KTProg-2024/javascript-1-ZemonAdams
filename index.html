@@ -3,16 +3,22 @@
     <head>
         <title>Buttons and JavaScript</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      .Blue {Background-color:Blue;color:white;Font-weight:120}
+      .Orange {Background-color:orange;color:black;Font-weight:120}
+      .Snake {Background-color:green;color:white;Font-weight:120}
+      .Lion {Background-color:yellow;color:black;Font-weight:120}
+    </style>
     </head>
 
 	<body>
 
 		<p id="color">The quick brown fox jumped over the lazy <span id="animal">dog</span></p>
 		<script src="Button.js"></script>
-		<button type="button" onclick="green()">Green</button>
-		<button type="button" onclick="cat()">Cat</button>
+		<button type="button" onclick="blue()"; class="Blue";>Blue</button>
+		<button type="button" onclick="lion()"; class="Lion";>Lion</button>
     <br><br>
-    <button type="button" onclick="red()">Red</button>
-    <button type="button" onclick="dog()">Dog</button>
+    <button type="button" onclick="orange()"; class="Orange";>Orange</button>
+    <button type="button" onclick="snake()"; class="Snake";>Snake</button>
 	</body>
 </html>

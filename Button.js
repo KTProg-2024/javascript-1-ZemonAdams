@@ -1,19 +1,19 @@
-function cat()
+function lion()
 {
-	document.getElementById("animal").innerHTML="cat";
+	document.getElementById("animal").innerHTML="lion";
 }
 
-function green()
+function blue()
 {
-	document.getElementById("color").style.color="green";
+	document.getElementById("color").style.color="blue";
 }
 
-function dog()
+function snake()
 {
-	document.getElementById("animal").innerHTML="dog";
+	document.getElementById("animal").innerHTML="snake";
 }
 
-function red()
+function orange()
 {
-	document.getElementById("color").style.color="red";
+	document.getElementById("color").style.color="orange";
 }
